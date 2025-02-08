@@ -111,3 +111,37 @@ p{
     width: 100%;
 
 }
+
+/* footer */
+
+footer{
+    margin: 100px 0 0 0;
+    background: #333;
+    padding: 100px 100px;
+
+}
+
+footer .main-footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 20px 30px;
+
+}
+
+footer .main-footer h4{
+    color: rgb(54, 54, 134);
+    font-size: 25px;
+    margin: 10px 0;
+    
+}
+
+
+footer .main-footer li{
+    color: white;
+    list-style-type: none;
+    padding: 3px 0px;
+    margin: 3px 0;
+    cursor: pointer;
+
+}
+
